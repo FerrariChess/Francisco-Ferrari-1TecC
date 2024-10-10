@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="author" content="Francisco Ferrari">
+    <meta name="description" content="'Formulário para hotel'
+    <title>My_CSS/Website</title>
+    <link rel="icon" href="" type="image/pgn">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+
+<body>
+
+    <header>
+
+<h1>Hotel X</h1>
+<h2>O Hotel onde...</h2>
+
+    </header>
+
+    <main>
+<fieldset>
+        
+    <!--Formulário-->
+
+    <legend>Informações pessoais</legend>
+        
+            <p>
+        <form action="submit.php" method="post">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" placeholder="email_aleatório@email.com" autocomplete="on" required autofocus>
+        </p>
+        
+        <p>
+                <label for="password">Senha:</label>
+                <input type="password" name="password" id="password" placeholder="senha" required>
+        </p>
+        
+        <p>
+                <label for="age">Idade:</label>
+                <input type="number" name="age" id="age" min="0" max="120" step="5" placeholder="00" required>
+        </p>
+        
+        <p>
+            
+        </datalist>  
+        
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    
+    </fieldset>
+    </main>
+
+    <footer>
+<hr><p>&lt;&lt;&lt; &copy;Francisco Pironti &gt;&gt;&gt;</p>
+
+    </footer>
+
+
+
+
+
+</body>
+
+
+</html>
